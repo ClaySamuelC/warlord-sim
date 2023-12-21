@@ -21,10 +21,12 @@
   - Messengers can be sent with minimal resources to send messages/requests to other forts/villages, they can also bring artifacts as gifts.
   - Villages/forts can send you messages to request resources/armies.
   - Your armies can be sent with messengers so the messenger can return news of events to you.
-- Supply chains, which are essentially armies without significant defensive capabilities that are used for transporting resources.
-- Automated supply chains which start their task again upon returning.
-- Pre-existing supply chains between different villages and forts.
-- The ability to raid supply chains.
+- A Supply chain system
+  - Supply chains are essentially armies without significant defensive capabilities that are used for transporting resources.
+  - Supply chains can be automated to start their task again upon returning.
+  - Pre-existing supply chains between different villages and forts.
+  - Villages pay their tributes via automated supply chains.
+  - The ability to raid supply chains.
 
 ***
 
