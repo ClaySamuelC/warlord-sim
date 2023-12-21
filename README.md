@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Plan for Development
+## Minimum Viable Product
+**I want the MVP of this game to have:**
+- A basic resource system consisting of:
+  - Food for maintaining population
+  - Wood for maintaining armies/villages
+  - Iron for building armies
+  - Gold for gaining influence and paying off enemies
+- A map of villages where each villages produces a specific resource output. If they are under your influence they will pay you tributes regularly. They can also be raided for resources.
+- An army system:
+  - Armies can be built and trained from your population with iron.
+  - Armies can be sent to raid or protect villages/forts.
+  - Armies carry resources with them. Armies consume food and wood as they travel and thus must be sent with enough resources to last their trip to their destination and back.
+  - Armies can be sent to villages with gold to try to gain them as your tributaries.
+- Random events happen to each village/fort such as famines, raids, uprisings, etc. These can just effect resources at those locations for now.
+- A loss condition, where you are killed by a foreign army or run out of food.
+- A map displaying known villages/forts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Later features to add
+- A messenger system.
+  - Messengers can be sent with minimal resources to send messages/requests to other forts/villages, they can also bring artifacts as gifts.
+  - Villages/forts can send you messages to request resources/armies.
+  - Your armies can be sent with messengers so the messenger can return news of events to you.
+- Supply chains, which are essentially armies without significant defensive capabilities that are used for transporting resources.
+- Automated supply chains which start their task again upon returning.
+- Pre-existing supply chains between different villages and forts.
+- The ability to raid supply chains.
+
+***
 
 ## Available Scripts
 
@@ -38,33 +64,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
