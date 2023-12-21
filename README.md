@@ -27,6 +27,17 @@
   - Pre-existing supply chains between different villages and forts.
   - Villages pay their tributes via automated supply chains.
   - The ability to raid supply chains.
+- A more rich resource system:
+  - Tools such as weapons/wheels/saddles must be built at villages which can construct them.
+  - Add horses.
+  - Update which resources are required for supply chains/armies/etc
+- A relationship system:
+  - Other villages/forts can have different relationships with you determining how they will interact with you
+  - Dedication - earned by providing defense/resources to different villages/forts - affects how much tribute they will pay you.
+  - Fear - earned by threatening/attacking/outnumbering a village/fort
+  - Hatred - earned by threatening/attacking a village/fort. Forts will hate you if they discover that you are very wealthy and undefended.
+- An information system:
+  - You can gather information on opposing villages/forts/supply chains by sending people to them. This will help you understand how many resources a place holds, how much defense they have, and how supply chains operate.
 
 ***
 
